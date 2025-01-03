@@ -1,12 +1,11 @@
 import requests
-burl = "https://www.machinetools.com"
-url = burl+"/en/machinery"
-
 from time import sleep
 from bs4 import BeautifulSoup as bs
 import pandas as pd
-# url = "your_target_url_here"
-# url = "https://www.amazon.in/dp/B09GSC45FS"
+
+burl = "https://www.machinetools.com"
+url = burl+"/en/machinery"
+
 h={
 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
 'Accept-Encoding': 'gzip, deflate, br, zstd',
